@@ -18,7 +18,6 @@ const MongoClient = require('mongodb').MongoClient;
 const connect = require("./src/db/conn")
 connect()
 const port = process.env.PORT || 5000
-let admin = []
 
 const static_path = path.join(__dirname, "./public")
 const template_path = path.join(__dirname, "./templates/views")
@@ -121,7 +120,6 @@ app.post('/homepage',(req,res) => {
 
 app.get('/signup', (req, res) => {
     const data = {
-        admin,
         firstname: '',
         lastname: '',
         email: '',
