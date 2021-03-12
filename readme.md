@@ -30,3 +30,8 @@ whereas employee will be redirected to his page where he/she can view all the de
 
 /logout => this route will clear the session and make you logout of the session
 
+How to run:
+1. clone it in your local harddrive
+2. navigate to the folder
+3. use the command npm install 
+4. use npm run dev
